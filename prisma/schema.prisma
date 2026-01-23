@@ -1,0 +1,182 @@
+generator client {
+  provider = "prisma-client"
+  output   = "../src/prisma" // özel çıktı istemiyorsanız yorumda kalsın
+}
+
+datasource db {
+  provider = "mysql"
+  url      = env("DATABASE_URL")
+}
+
+/**
+ * ========= USERS =========
+ */
+model User {
+  id           String   @id @default(cuid()) @db.VarChar(64)
+  email        String   @unique @db.VarChar(255)
+  passwordHash String   @db.VarChar(255)
+  firstName    String?  @db.VarChar(255)
+  lastName     String?  @db.VarChar(255)
+  createdAt    DateTime @default(now())
+  updatedAt    DateTime @updatedAt
+  company      String?  @db.VarChar(255)
+  position     String?  @db.VarChar(255)
+
+  purchases Purchase[]
+
+  @@map("users")
+}
+
+model AdminWhitelist {
+  id        Int      @id @default(autoincrement())
+  ip        String   @db.VarChar(64)
+  note      String?  @db.VarChar(191)
+  createdAt DateTime @default(now()) @map("created_at")
+  updatedAt DateTime @updatedAt @map("updated_at")
+
+  @@index([ip], name: "idx_admin_whitelist_ip")
+  @@map("admin_whitelist")
+}
+
+/**
+ * ========= CATEGORIES =========
+ */
+model Category {
+  id        String    @id @db.VarChar(64)
+  title     String    @db.VarChar(255)
+  deletedAt DateTime? @map("deleted_at")
+
+  products Product[]
+
+  @@map("categories")
+}
+
+/**
+ * ========= PRODUCTS =========
+ */
+model Product {
+  id String @id @default(cuid())
+
+  // Basit alanlar
+  title String? @db.VarChar(255)
+  price String? @db.VarChar(64)
+
+  // İlişkiler
+  categoryId String?   @map("category_id") @db.VarChar(64)
+  category   Category? @relation(fields: [categoryId], references: [id])
+
+  deletedAt DateTime? @map("deleted_at")
+  createdAt DateTime  @default(now()) @map("created_at")
+  updatedAt DateTime  @updatedAt @map("updated_at")
+
+  translations ProductTranslation[]
+  options      ProductOption[] // <-- eklendi
+  images       ProductImage[] // <-- eklendi
+
+  @@index([categoryId], map: "idx_products_category")
+  @@map("products")
+}
+
+model ProductTranslation {
+  productId   String  @map("product_id") @db.VarChar(64)
+  localeCode  String  @map("locale") @db.VarChar(8)
+  title       String  @db.VarChar(255)
+  price       String? @db.VarChar(64)
+  description String?
+
+  product Product @relation(fields: [productId], references: [id], onDelete: Cascade, onUpdate: Cascade)
+
+  @@id([productId, localeCode])
+  @@map("product_translations")
+}
+
+model ProductImage {
+  id         String   @id @default(cuid()) @db.VarChar(64)
+  productId  String   @map("product_id") @db.VarChar(64)
+  url        String
+  localeCode String?  @map("locale_code") @db.VarChar(8)
+  product    Product  @relation(fields: [productId], references: [id], onDelete: Cascade)
+  createdAt  DateTime @default(now()) @map("created_at")
+
+  @@index([productId])
+  @@index([productId, localeCode])
+  @@map("product_images")
+}
+
+/**
+ * ========= PRODUCT OPTIONS =========
+ */
+model ProductOption {
+  id        String  @id @db.VarChar(64)
+  productId String  @map("product_id") @db.VarChar(64)
+  product   Product @relation(fields: [productId], references: [id], onDelete: Cascade)
+
+  type          String  @db.VarChar(32)
+  isRequired    Boolean @default(false) @map("is_required")
+  isRecurring   Boolean @default(false) @map("is_recurring")
+  priceAmount   Int     @map("price_amount") // kuruş bazlı önerilir
+  currency      String  @db.VarChar(8)
+  billingPeriod String? @map("billing_period") @db.VarChar(32)
+
+  sortOrder Int     @default(0) @map("sort_order")
+  active    Boolean @default(true)
+
+  createdAt DateTime @default(now()) @map("created_at")
+  updatedAt DateTime @updatedAt @map("updated_at")
+
+  translations ProductOptionTranslation[]
+
+  @@index([productId, sortOrder, createdAt], map: "idx_product_options_prod_sort_created")
+  @@map("product_options")
+}
+
+model ProductOptionTranslation {
+  productOptionId String  @map("option_id") @db.VarChar(64)
+  localeCode      String  @map("locale") @db.VarChar(8)
+  title           String  @db.VarChar(255)
+  description     String?
+  priceLabel      String? @map("price_label") @db.VarChar(64)
+
+  option ProductOption @relation(fields: [productOptionId], references: [id], onDelete: Cascade, onUpdate: Cascade)
+
+  @@id([productOptionId, localeCode])
+  @@map("product_option_translations")
+}
+
+/**
+ * ========= PURCHASES =========
+ */
+model Purchase {
+  id     String @id @db.VarChar(64)
+  userId String @map("user_id") @db.VarChar(64)
+  user   User   @relation(fields: [userId], references: [id], onDelete: Cascade)
+
+  orderNumber String   @unique @map("order_number") @db.VarChar(64)
+  status      String   @db.VarChar(32)
+  totalAmount Int      @map("total_amount")
+  currency    String   @db.VarChar(8)
+  notes       String?
+  createdAt   DateTime @default(now()) @map("created_at")
+  updatedAt   DateTime @updatedAt @map("updated_at")
+
+  items PurchaseItem[]
+
+  @@index([userId, createdAt], map: "idx_purchases_user")
+  @@map("purchases")
+}
+
+model PurchaseItem {
+  id         String   @id @db.VarChar(64)
+  purchaseId String   @map("purchase_id") @db.VarChar(64)
+  purchase   Purchase @relation(fields: [purchaseId], references: [id], onDelete: Cascade)
+
+  productId String?  @map("product_id") @db.VarChar(64)
+  title     String   @db.VarChar(255)
+  quantity  Int
+  unitPrice Int      @map("unit_price")
+  currency  String   @db.VarChar(8)
+  createdAt DateTime @default(now()) @map("created_at")
+
+  @@index([purchaseId, createdAt], map: "idx_purchase_items_purchase")
+  @@map("purchase_items")
+}

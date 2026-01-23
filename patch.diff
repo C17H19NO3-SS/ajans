@@ -1,0 +1,16 @@
+*** Begin Patch
+*** Update File: src/Routes/Admin.ts
+@@
+-      {
+-        response: {\n          200: authSuccessResponse,\n          401: authErrorResponse,\n          403: authErrorResponse,\n          404: authErrorResponse,
+-        },
+-      }
++      {
++        response: {
++          200: authSuccessResponse,
++          401: authErrorResponse,
++          403: authErrorResponse,
++          404: authErrorResponse,
++        },
++      }
+*** End Patch

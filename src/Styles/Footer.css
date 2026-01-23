@@ -1,0 +1,142 @@
+/* Footer v2 styles extracted from global stylesheet */
+@import "tailwindcss";
+.footer-v2 {
+  @apply bg-[#101820] text-[rgba(255,255,255,0.8)] relative overflow-hidden;
+}
+.footer-v2::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 8px;
+  background: linear-gradient(90deg, var(--primary-color) 0%, #2c4691 100%);
+}
+.footer-v2::after {
+  content: "";
+  position: absolute;
+  top: 8px;
+  right: 0;
+  width: 40%;
+  height: 1px;
+  background: rgba(255, 255, 255, 0.1);
+}
+.footer-top {
+  @apply py-[70px] pb-[40px] relative;
+}
+.footer-top::before {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 1px;
+  background: rgba(255, 255, 255, 0.05);
+}
+.footer-widget {
+  @apply mb-[30px];
+}
+.footer-logo img {
+  @apply h-[45px] w-auto;
+}
+.footer-widget-title {
+  @apply text-white text-[20px] font-bold mb-[25px] relative pb-[15px];
+}
+.footer-widget-title::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 50px;
+  height: 2px;
+  background: var(--primary-color);
+}
+.footer-desc {
+  @apply text-[rgba(255,255,255,0.7)] mb-5 leading-[1.7] text-[0.95rem];
+}
+.footer-social-icons {
+  @apply flex gap-[10px] mt-5;
+}
+.footer-social-icons .social-icon {
+  @apply flex items-center justify-center w-[38px] h-[38px] rounded-full bg-[rgba(255,255,255,0.05)] text-[rgba(255,255,255,0.8)] transition-all duration-300;
+}
+.footer-social-icons .social-icon:hover {
+  background-color: var(--primary-color);
+  color: #fff;
+  transform: translateY(-5px);
+}
+.footer-links {
+  @apply list-none p-0 m-0;
+}
+.footer-links li {
+  @apply mb-3;
+}
+.footer-links li a {
+  @apply text-[rgba(255,255,255,0.7)] text-[0.95rem] transition-all duration-300 flex items-center no-underline;
+}
+.footer-links li a i {
+  @apply text-[10px] mr-2 transition-all duration-300;
+  color: var(--primary-color);
+}
+.footer-links li a:hover {
+  @apply text-white;
+  transform: translateX(5px);
+}
+.footer-links li a:hover i {
+  @apply mr-3;
+}
+.footer-contact-info {
+  @apply list-none p-0 m-0;
+}
+.footer-contact-info li {
+  @apply flex items-start mb-5;
+}
+.contact-icon {
+  @apply w-10 h-10 min-w-10 rounded-full flex items-center justify-center mr-[15px] text-[var(--primary-color)] transition-all duration-300;
+  background: rgba(59, 90, 187, 0.1);
+}
+.footer-contact-info li:hover .contact-icon {
+  background: var(--primary-color);
+  color: #fff;
+  transform: translateY(-3px);
+}
+.contact-text {
+  @apply text-[0.95rem] text-[rgba(255,255,255,0.7)] leading-[1.6];
+}
+.contact-text a {
+  @apply text-[rgba(255,255,255,0.7)] transition-all duration-300 no-underline;
+}
+.contact-text a:hover {
+  @apply text-white;
+}
+.footer-newsletter {
+  @apply mt-[25px];
+}
+.footer-newsletter .btn {
+  @apply py-[10px] px-[25px] font-semibold tracking-[0.5px] shadow-[0_5px_15px_rgba(59,90,187,0.2)] transition-all duration-300;
+}
+.footer-newsletter .btn:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 8px 20px rgba(59, 90, 187, 0.3);
+}
+.footer-bottom {
+  @apply py-5 bg-[rgba(0,0,0,0.2)];
+}
+.copyright-text {
+  @apply text-[0.9rem] text-[rgba(255,255,255,0.6)];
+}
+.footer-bottom-links {
+  @apply flex justify-end gap-5;
+}
+.footer-bottom-links a {
+  @apply text-[rgba(255,255,255,0.6)] text-[0.9rem] transition-all duration-300 relative no-underline;
+}
+.footer-bottom-links a:hover {
+  @apply text-white;
+}
+.footer-bottom-links a:not(:last-child)::after {
+  content: "|";
+  position: absolute;
+  right: -12px;
+  color: rgba(255, 255, 255, 0.3);
+}

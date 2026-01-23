@@ -1,0 +1,552 @@
+{
+  "brand": {
+    "name": "Taso Digital",
+    "tagline": "Dijital Çözümler"
+  },
+  "nav": {
+    "home": "Anasayfa",
+    "services": "Hizmetlerimiz",
+    "about": "Hakkımızda",
+    "products": "Ürünlerimiz",
+    "contact": "İletişim",
+    "references": "Referanslarımız",
+    "apiDocs": "API Dokümantasyon"
+  },
+  "actions": {
+    "login": "Giriş Yap",
+    "register": "Kayıt Ol",
+    "viewAllServices": "Tüm Hizmetleri Görüntüle",
+    "getQuote": "Ücretsiz Teklif Al"
+  },
+  "hero": {
+    "badge": "Dijital Pazarlama Ajansı",
+    "title1": "Profesyonel",
+    "title2": "Hizmetlerimiz",
+    "desc": "Sosyal medya yönetimi, sanal tur çekimleri, reklam kampanyaları ve görsel içerik üretimi ile markanızı dijital dünyada büyütüyoruz.",
+    "cta": "Paketleri İnceleyin",
+    "imageAlt": "Toplantı masasında birlikte çalışan ekip",
+    "scrollCtaAria": "Çözümler bölümüne kaydır"
+  },
+  "services": {
+    "social": "Sosyal Medya Yönetimi",
+    "drone": "Drone Çekimleri",
+    "virtualTour": "Sanal Tur Hizmetleri",
+    "ads": "Reklam Yönetimi",
+    "consulting": "Uzman Danışmanlık",
+    "web": "Web Geliştirme",
+    "mobile": "Mobil Uygulamalar",
+    "seo": "SEO Hizmetleri",
+    "dev": "Yazılım Geliştirme"
+  },
+  "serviceInfo": {
+    "titlePrefix": "Hizmet",
+    "titleHighlight": "Bilgilendirme",
+    "desc": "Hizmetlerimiz ve paket detayları hakkında bilgi almak için bizimle iletişime geçin. Size özel çözümler sunuyoruz.",
+    "cards": {
+      "phone": {
+        "title": "Telefon",
+        "desc": "Detaylı bilgi alın"
+      },
+      "email": {
+        "title": "E-posta",
+        "desc": "Yazılı teklif alın"
+      },
+      "appointment": {
+        "title": "Randevu",
+        "desc": "Yüz yüze görüşün"
+      }
+    },
+    "cta": "Randevu Alın"
+  },
+  "visualContent": {
+    "titlePrefix": "Görsel",
+    "titleHighlight": "İçerik Hizmetleri",
+    "desc": "Profesyonel drone çekimleri, fotoğraf ve video prodüksiyon hizmetleri sunuyoruz. Markanızın görsel iletişimini güçlendiren yüksek kaliteli içerikler üretiyoruz. 4K kalitede çekim ve hızlı teslimat garantisi.",
+    "bullets": [
+      "4K kalitede çekim garantisi",
+      "Hızlı teslimat süresi (3–5 gün)"
+    ],
+    "imageAlt": "Prodüksiyon toplantısı",
+    "badge": "İçerik Üretim Merkezi"
+  },
+  "compSol": {
+    "titlePrefix": "Kapsamlı",
+    "titleHighlight": "Dijital Çözümler",
+    "desc": "Sosyal medya yönetiminden sanal turlara, reklam kampanyalarından danışmanlığa kadar tüm dijital pazarlama ihtiyaçlarınız için çözümler",
+    "blockTitlePrefix": "Sosyal Medya",
+    "blockTitleHighlight": "Yönetimi",
+    "blockDesc": "Markanızın sosyal medya hesaplarını profesyonel ekibimizle yönetiyoruz. Gold ve Platinum paketlerimizle %150 organik büyüme garantisi sunuyoruz. Stratejik içerik planları ve hedefli reklam kampanyaları ile markanızı büyütüyoruz.",
+    "bullets": [
+      "%150 organik büyüme garantisi",
+      "Detaylı performans raporları",
+      "Stratejik içerik planlama"
+    ],
+    "imageAlt": "Sosyal medya uygulamaları ekranı",
+    "badge": "Sosyal Medya Uzmanı"
+  },
+  "notFound": {
+    "title": "Aradığınız sayfayı bulamadık",
+    "subtitle": "Bağlantı hatalı olabilir ya da sayfa taşınmış/ kaldırılmış olabilir.",
+    "desc": "İsterseniz ana sayfaya dönebilir veya bizimle iletişime geçerek ihtiyacınızı hızlıca çözebiliriz.",
+    "homeCta": "Ana sayfaya dön",
+    "contactCta": "İletişime geç"
+  },
+  "footer": {
+    "quick": "Hızlı Erişim",
+    "services": "Dijital Hizmetler",
+    "contactInfo": "İletişim Bilgileri",
+    "aboutText": "Türkiye'nin önde gelen dijital pazarlama ajansı. Drone çekimleri, sanal turlar ve sosyal medya yönetimi ile markanızı dijital dünyada zirveye taşıyoruz.",
+    "addressLine1": "Merkez Mahallesi, Atatürk Caddesi",
+    "addressLine2": "No:123, Kat:5, İstanbul",
+    "phone": "+90 555 123 4567",
+    "email": "info@tasodigital.com",
+    "hours": "Pazartesi-Cuma: 09:00-18:00",
+    "privacy": "Gizlilik Politikası",
+    "terms": "Kullanım Koşulları",
+    "kvkk": "KVKK",
+    "rights": "Tüm hakları saklıdır.",
+    "by": "{{name}} tarafından Taso Digital için hazırlandı."
+  },
+  "servicesDropdown": {
+    "title": "Dijital Pazarlama Hizmetleri",
+    "subtitle": "Yüzde 150 büyüme garantili dijital çözümler",
+    "descriptions": {
+      "social": "%150 büyüme garantili paketler",
+      "visual": "Drone çekimi, fotoğraf, video prodüksiyon",
+      "virtualTour": "360° sanal turlar ve Google entegrasyonu",
+      "ads": "Meta Ads ve Google Ads yönetimi",
+      "consulting": "Influencer pazarlama ve strateji danışmanlığı"
+    }
+  },
+  "register": {
+    "user_system": "Kullanıcı Sistemi",
+    "create_new": "Yeni",
+    "account": "Hesap Oluştur",
+    "welcome_message": "Dakikalar içinde hesabınızı oluşturun ve panelin tüm özelliklerine erişin.",
+    "quick_start": "Hızlı Başlangıç",
+    "quick_start_desc": "Basit adımlarla kayıt ve anında giriş.",
+    "growth_guarantee": "Büyüme Garantisi",
+    "growth_guarantee_desc": "%150 organik büyüme hedefli çözümler.",
+    "expert_support": "Uzman Destek",
+    "expert_support_desc": "7/24 uzman ekibimiz yanınızda.",
+    "create_account": "Hesap Oluştur",
+    "fill_all_info": "Lütfen tüm alanları eksiksiz doldurun.",
+    "first_name": "Ad",
+    "last_name": "Soyad",
+    "username": "Kullanıcı Adı",
+    "email_address": "E-posta Adresi",
+    "phone": "Telefon",
+    "company": "Şirket",
+    "position": "Pozisyon",
+    "password": "Şifre",
+    "confirm_password": "Şifre (Tekrar)",
+    "enter_first_name": "Adınızı girin",
+    "enter_last_name": "Soyadınızı girin",
+    "enter_username": "Kullanıcı adınızı girin",
+    "enter_email": "E-postanızı girin",
+    "enter_phone": "Telefon numaranızı girin",
+    "enter_company": "Şirket adınızı girin",
+    "enter_position": "Pozisyonunuzu girin",
+    "enter_password": "Şifrenizi girin",
+    "enter_password_again": "Şifrenizi tekrar girin",
+    "password_min_chars": "Şifre en az 8 karakter olmalı.",
+    "terms_of_use": "Kullanım koşulları",
+    "privacy_policy": "Gizlilik politikası",
+    "accept_terms": "kabul ediyorum",
+    "and": "ve",
+    "already_have_account": "Zaten hesabınız var mı?",
+    "sign_in": "Giriş yap"
+  },
+  "login": {
+    "user_system": "Kullanıcı Sistemi",
+    "title_prefix": "Hoş Geldiniz",
+    "title_highlight": "Panelinize",
+    "desc": "Hesabınıza erişin ve dijital pazarlama hizmetlerinizi kolayca yönetin",
+    "secure_login": "Güvenli Giriş",
+    "secure_login_desc": "Verileriniz gelişmiş güvenlik önlemleriyle korunmaktadır",
+    "fast_access": "Hızlı Erişim",
+    "fast_access_desc": "Hesabınıza hızlı ve kolay giriş",
+    "sign_in_title": "Hesabınıza Giriş Yapın",
+    "sign_in_desc": "Panelinize erişmek için giriş bilgilerinizi girin",
+    "email": "E‑posta Adresi",
+    "password": "Şifre",
+    "enter_email": "E‑posta adresinizi girin",
+    "enter_password": "Şifrenizi girin",
+    "remember": "Beni hatırla",
+    "forgot": "Şifrenizi mi unuttunuz?",
+    "submit_button": "Giriş Yap",
+    "no_account": "Hesabınız yok mu?",
+    "register_here": "Buradan kayıt olun"
+  },
+  "home": {
+    "hero": {
+      "badge": "Dijital Pazarlama Ajansı",
+      "title": "Markanızı dijital dünyada büyütün",
+      "desc": "Sosyal medya yönetimi, reklam kampanyaları, içerik üretimi ve sanal tur hizmetleri ile markanızı güçlendiriyoruz.",
+      "cta": "Hizmetlerimizi inceleyin",
+      "imageAlt": "Dijital çözümler"
+    },
+    "servicesIntro": {
+      "title": "Dijital Pazarlama Hizmetlerimiz",
+      "desc": "Sosyal medya yönetiminden sanal tur çekimlerine, reklam kampanyalarından influencer pazarlamaya kadar kapsamlı dijital çözümler sunuyoruz.",
+      "badge": "Dijital Çözümler"
+    },
+    "stats": {
+      "growth": {
+        "value": "%150",
+        "label": "Ortalama büyüme"
+      },
+      "drone": {
+        "value": "500+",
+        "label": "Drone çekimi"
+      },
+      "clients": {
+        "value": "200+",
+        "label": "Mutlu müşteri"
+      },
+      "social": {
+        "value": "1000+",
+        "label": "Sosyal medya yönetimi"
+      }
+    },
+    "servicesList": {
+      "social": {
+        "title": "Sosyal Medya Yönetimi",
+        "description": "Markanızın sosyal medya hesaplarını profesyonel ekibimizle yönetiyoruz. Stratejik içerik planları ve hedefli reklam kampanyaları ile organik büyümenizi artırıyoruz.",
+        "bullets": [
+          "Gold paket",
+          "Platinum paket",
+          "%150 organik büyüme",
+          "Stratejik içerik planlama",
+          "Meta ve Google Ads yönetimi"
+        ],
+        "cta": "Paketleri incele",
+        "badge": "SM",
+        "label": "Sosyal Medya Uzmanı"
+      },
+      "virtualTour": {
+        "title": "Sanal Tur Hizmetleri",
+        "description": "Emlak, otel, restoran ve işletmeler için 360 derece sanal tur hazırlıyoruz. Google Business entegrasyonu ile müşterileriniz mekanınızı sanal olarak gezebilir.",
+        "bullets": [
+          "Emlak sanal turu",
+          "Google Business entegrasyonu",
+          "360 derece fotoğraf çekimi",
+          "İnteraktif deneyim",
+          "Mobil uyumlu görüntüleme"
+        ],
+        "cta": "Sipariş ver",
+        "badge": "VR",
+        "label": "360 Sanal Turlar"
+      },
+      "visual": {
+        "title": "Görsel Hizmetler",
+        "description": "Profesyonel drone çekimleri, fotoğraf ve video prodüksiyon hizmetleri sunuyoruz. Markanızın görsel iletişimini güçlendiren yüksek kaliteli içerikler üretiriz.",
+        "bullets": [
+          "Drone çekimleri",
+          "Profesyonel fotoğraf",
+          "Video prodüksiyon",
+          "4K kalite",
+          "Hızlı teslimat"
+        ],
+        "cta": "Hizmetleri incele",
+        "badge": "DR",
+        "label": "Drone & Foto Çekimi"
+      },
+      "consulting": {
+        "title": "Dijital Pazarlama Danışmanlığı",
+        "description": "Influencer pazarlama, strateji geliştirme ve kampanya optimizasyonu konularında birebir danışmanlık sağlıyoruz.",
+        "bullets": [
+          "Danışmanlık seansları",
+          "Influencer pazarlama",
+          "Strateji geliştirme",
+          "Kampanya optimizasyonu",
+          "ROI analizi"
+        ],
+        "cta": "Randevu al",
+        "badge": "XP",
+        "label": "Uzman Danışmanlık"
+      }
+    }
+  },
+  "products": {
+    "hero": {
+      "badge": "Dijital Çözümler",
+      "title1": "Ürün ve",
+      "title2": "Hizmetlerimiz",
+      "desc": "İhtiyacınız olan tüm dijital çözümleri sağlıyoruz. Profesyonel ekibimizle projelerinizi gerçeğe dönüştürün.",
+      "ctaPrimary": "Hemen İletişime Geçin",
+      "ctaSecondary": "Ürünleri İnceleyin",
+      "imgAlt": "Dijital ürünler"
+    },
+    "filters": {
+      "all": "Tüm ürünler",
+      "loading": "Kategoriler yükleniyor..."
+    },
+    "search": {
+      "placeholder": "Ürünlerde ara...",
+      "clear": "Temizle"
+    },
+    "card": {
+      "view": "İncele",
+      "call": "Ara",
+      "free": "Ücretsiz",
+      "ask": "Teklif için iletişim"
+    },
+    "empty": {
+      "title": "Bu kriterlere uygun ürün bulunamadı",
+      "desc": "Filtreleri veya arama terimlerini değiştirip tekrar deneyin.",
+      "cta": "Tüm Ürünleri Görüntüle"
+    },
+    "section": {
+      "title1": "Profesyonel Dijital",
+      "title2": "Çözümler",
+      "subtitle": "Dijital hizmet paketlerimizi keşfedin"
+    },
+    "cta": {
+      "title": "Özel bir projeniz mi var?",
+      "desc": "Listelenen paketler dışında özel ihtiyaçlarınız için size özel çözümler üretebiliriz.",
+      "primary": "Hemen İletişime Geç",
+      "secondary": "Telefon Et"
+    },
+    "errors": {
+      "categories": "Kategoriler yüklenemedi",
+      "unexpected": "Beklenmeyen hata"
+    },
+    "messages": {
+      "loading": "Yükleniyor..."
+    },
+    "detail": {
+      "notFound": "Ürün bulunamadı",
+      "notFoundDesc": "Listeden başka bir ürün seçmeyi deneyin veya bizimle iletişime geçin.",
+      "back": "Geri dön",
+      "meet": "Görüşme ayarla",
+      "extras": "Opsiyonel ek hizmetler",
+      "extrasDesc": "Paketi zenginleştirmek için tercih edebileceğiniz ek servisler.",
+      "nextSteps": "Bir sonraki adım için hazır mısınız?",
+      "nextStepsDesc": "İhtiyacınıza en uygun paketi ve opsiyonel ek özellikleri birlikte belirleyelim.",
+      "callNow": "Şimdi Ara",
+      "contact": "Formu Doldur",
+      "included": "Paket içeriği",
+      "premium": "Pro özellikler",
+      "subscription": "Abonelik",
+      "optional": "Opsiyonel",
+      "summary": "Sipariş Özeti",
+      "base": "Paket",
+      "total": "Toplam",
+      "purchase": "Satın al"
+    }
+  },
+  "pages": {
+    "about": {
+      "title": "Hakkımızda",
+      "description": "Taso Digital olarak markaların dijital dünyada güçlenmesi için çalışıyoruz."
+    },
+    "services": {
+      "title": "Hizmetlerimiz",
+      "description": "Hizmet detay sayfası çok yakında yayında olacak."
+    },
+    "references": {
+      "title": "Referanslarımız",
+      "description": "Dijital büyümelerinde bize güvenen markalar.",
+      "heroTitle": "Başarı Hikayelerimiz",
+      "heroDesc": "Sosyal medya danışmanlığı, 4K drone çekimleri ve yüksek kaliteli reklam prodüksiyonları ile markalara değer katıyoruz.",
+      "projectsTitle": "Öne Çıkan Projeler",
+      "projectsSubtitle": "Farklı sektörlerden seçkin çalışmalarımız.",
+      "resultLabel": "Sonuç",
+      "items": {
+        "cafe": {
+          "client": "The Coffee Lab",
+          "service": "Sosyal Medya Yönetimi",
+          "desc": "Yerel bir kahve zinciri için tam kapsamlı Instagram yönetimi ve Reels içerik üretimi sağladık.",
+          "result": "3 ayda %150 takipçi artışı"
+        },
+        "realestate": {
+          "client": "Grand Horizons İnşaat",
+          "service": "Drone ve Sanal Tur",
+          "desc": "Lüks konut projesi için 4K drone sinematografisi ve 360 derece sanal tur çekimleri gerçekleştirdik.",
+          "result": "İlk ayda %40 satış başarısı"
+        },
+        "hotel": {
+          "client": "Seaside Resort & Spa",
+          "service": "Reklam Prodüksiyonu",
+          "desc": "Otelin yaz sezonu tanıtımı için tesisin tüm imkanlarını anlatan profesyonel tanıtım filmi çekimi.",
+          "result": "Dijital reklamlarda 2M+ izlenme"
+        },
+        "clinic": {
+          "client": "Elite Dental Klinik",
+          "service": "Danışmanlık ve Reklam",
+          "desc": "Uluslararası hasta kazanımı için dijital pazarlama danışmanlığı ve Google Ads yönetimi.",
+          "result": "Reklam harcamasında %300 getiri (ROI)"
+        }
+      },
+      "bottomImageAlt": "Ekibimiz set çalışmasında"
+    },
+    "privacy": {
+      "title": "Gizlilik Politikası",
+      "description": "Gizlilik politikasının güncel sürümü çok yakında yayınlanacak."
+    },
+    "terms": {
+      "title": "Kullanım Koşulları",
+      "description": "Kullanım koşullarının güncel sürümü çok yakında yayınlanacak."
+    },
+    "kvkk": {
+      "title": "KVKK Aydınlatma Metni",
+      "description": "KVKK metnimiz üzerinde çalışıyoruz."
+    }
+  },
+  "contact": {
+    "hero": {
+      "badge": "İletişime Geçin",
+      "title1": "İletişim",
+      "title2": "Kanalları",
+      "desc": "Projeleriniz ve sorularınız için bize ulaşın. Ekibimiz en kısa sürede dönüş yapacak.",
+      "ctaSend": "Mesaj Gönder",
+      "ctaCall": "Hemen Ara",
+      "imageAlt": "İletişim"
+    },
+    "info": {
+      "title1": "İletişim",
+      "title2": "Bilgileri",
+      "subtitle": "7/24 bize ulaşabilirsiniz",
+      "addressTitle": "Adres",
+      "address": "Merkez Mah. Atatürk Cad. No:123 Kat:5 İstanbul",
+      "addressCta": "Haritada gör",
+      "phoneTitle": "Telefon",
+      "phone": "+90 506 165 93 88",
+      "phoneCta": "Ara",
+      "mailTitle": "E-posta",
+      "mail": "admin@tasodigital.com",
+      "mailCta": "E-posta gönder"
+    },
+    "appointment": {
+      "title1": "Danışmanlık",
+      "title2": "Randevusu",
+      "subtitle": "Takvimden uygun zaman seçin",
+      "info": "Uzman ekibimizle birebir görüşme planlayın.",
+      "pickDate": "Tarih seçin",
+      "monthLabel": "Ay",
+      "legendAvailable": "Müsait",
+      "legendUnavailable": "Dolu",
+      "legendSelected": "Seçildi",
+      "legendFull": "Dolu",
+      "calendarTitle": "Randevu Takvimi",
+      "form": {
+        "service": "Hizmet",
+        "serviceReq": "Lütfen bir hizmet seçin",
+        "date": "Tarih",
+        "time": "Saat",
+        "pickTime": "Saat seçin",
+        "pickDateFirst": "Önce tarih seçmelisiniz",
+        "name": "Ad Soyad",
+        "nameReq": "İsim zorunlu",
+        "email": "E-posta",
+        "emailReq": "Geçerli e-posta girin",
+        "phone": "Telefon",
+        "message": "Notunuz",
+        "messagePh": "Kısa not ekleyebilirsiniz",
+        "messageHint": "Max 500 karakter",
+        "privacy": "Göndererek gizlilik politikamızı kabul ediyorum",
+        "submit": "Randevu oluştur"
+      }
+    },
+    "faq": {
+      "title1": "Sıkça Sorulan",
+      "title2": "Sorular",
+      "subtitle": "En çok sorulan sorular ve yanıtları",
+      "q1": "Hizmetlerinizin ücreti nedir?",
+      "a1": "Fiyatlar proje kapsam ve ihtiyaca göre değişir. Size özel teklif için bize ulaşın.",
+      "q2": "Çalışma sürecimiz nasıl ilerliyor?",
+      "a2": "Kısa bir ihtiyaç analizi sonrası yol haritası oluşturup süreci başlatıyoruz.",
+      "q3": "Hangi sektörlerle çalışıyorsunuz?",
+      "a3": "Perakende, emlak, turizm, sağlık, eğitim ve daha pek çok sektörle deneyimimiz var."
+    }
+  },
+  "form": {
+    "title": "İletişim Formu",
+    "fields": {
+      "name": "Ad Soyad",
+      "email": "E-posta",
+      "subject": "Konu",
+      "phone": "Telefon",
+      "message": "Mesaj"
+    },
+    "privacy": "Göndererek gizlilik politikasını kabul ediyorum",
+    "select": "Seçiniz",
+    "submit": "Mesajı Gönder"
+  },
+  "map": {
+    "title": "Ofisimizi Ziyaret Edin",
+    "socialTitle": "Sosyal Medya",
+    "hoursTitle": "Çalışma Saatleri",
+    "hoursWeek": "Pazartesi - Cuma",
+    "hoursSat": "Cumartesi",
+    "hoursSun": "Pazar",
+    "weekLabel": "Hafta İçi",
+    "satLabel": "Hafta Sonu",
+    "sunLabel": "Pazar"
+  },
+  "cta": {
+    "title": "Şimdi iletişime geçin",
+    "titleTail": "",
+    "desc": "Projeleriniz için birlikte çalışmaya hazırız.",
+    "ctaCall": "Ara",
+    "ctaMail": "E-posta",
+    "support": "Destek Hattı"
+  },
+  "about": {
+    "hero": {
+      "badge": "2020'den Beri Hizmetinizdeyiz",
+      "title1": "Dijital Pazarlama",
+      "title2": "Uzmanları",
+      "desc": "2020'den beri dijital pazarlama alanında hizmet veren profesyonel ekibimiz ile markanızı dijital dünyada zirveye taşıyoruz. %150 organik büyüme garantili paketlerimiz ve yenilikçi çözümlerimizle işinizi büyütün.",
+      "imgAlt": "Taso Digital Ekibi"
+    },
+    "stats": {
+      "growth": "%150 Organik Büyüme",
+      "clients": "Mutlu Müşteri",
+      "drone": "Drone Çekimi",
+      "tour": "Sanal Tur"
+    },
+    "story": {
+      "title1": "Hikayemiz ve",
+      "title2": "Deneyimlerimiz",
+      "description": "2020'de sosyal medya pazarlama alanında başladık. Drone çekimleri ve sanal tur hizmetleriyle portföyümüzü genişlettik ve %150 organik büyüme odaklı paketler geliştirdik.",
+      "b1": "2020 yılında sosyal medya pazarlama alanında faaliyet göstermeye başladık",
+      "b2": "Drone çekimleri ve sanal tur hizmetleriyle portföyümüzü genişlettik",
+      "b3": "%150 organik büyüme garantili paketler geliştirdik",
+      "b4": "100+ başarılı proje ve mutlu müşterilerle büyümeye devam ediyoruz",
+      "imgAlt": "Şirket Hikayesi"
+    },
+    "values": {
+      "title1": "Misyon, Vizyon",
+      "title2": "ve Değerlerimiz",
+      "subtitle": "Değerlerimiz doğrultusunda belirlediğimiz misyon ve vizyonumuzla hizmet veriyoruz",
+      "mission": {
+        "title": "Misyonumuz",
+        "text": "Dijital pazarlama alanında yenilikçi ve etkili çözümler sunarak müşterilerimizin işlerini büyütmelerine katkı sağlamak. Sosyal medya, görsel içerik ve sanal tur hizmetleriyle güçlü bir dijital varlık oluşturmak.",
+        "tag": "Misyon"
+      },
+      "vision": {
+        "title": "Vizyonumuz",
+        "text": "Türkiye'nin önde gelen dijital pazarlama ajansı olarak teknolojiyi ve yaratıcılığı birleştirip öncü çözümler üretmek.",
+        "tag": "Vizyon"
+      },
+      "values": {
+        "title": "Değerlerimiz",
+        "text": "Müşteri memnuniyeti, kalite, yenilikçilik ve güvenilirlik. Şeffaf, dürüst ve profesyonel iş ortaklıkları.",
+        "tag": "Değerler"
+      }
+    },
+    "team": {
+      "title1": "Profesyonel",
+      "title2": "Ekibimiz",
+      "subtitle": "Alanında uzman, deneyimli ve yaratıcı ekibimizle projelerinizi hayata geçiriyoruz"
+    },
+    "cta": {
+      "title": "Ekibimizle tanışın ve projenizi büyütelim",
+      "desc": "Özel ihtiyaçlarınıza uygun çözümler üretelim. İletişime geçin veya randevu alın.",
+      "primary": "İletişime Geçin",
+      "secondary": "Ekibi Gör"
+    }
+  }
+}

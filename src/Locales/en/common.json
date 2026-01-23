@@ -1,0 +1,552 @@
+{
+  "brand": {
+    "name": "Taso Digital",
+    "tagline": "Digital Solutions"
+  },
+  "nav": {
+    "home": "Home",
+    "services": "Services",
+    "about": "About",
+    "products": "Products",
+    "contact": "Contact",
+    "references": "References",
+    "apiDocs": "API Docs"
+  },
+  "actions": {
+    "login": "Sign In",
+    "register": "Sign Up",
+    "viewAllServices": "View All Services",
+    "getQuote": "Get a Quote"
+  },
+  "hero": {
+    "badge": "Digital Marketing Agency",
+    "title1": "Professional",
+    "title2": "Services",
+    "desc": "We grow your brand with social media management, virtual tours, ad campaigns and high-quality visual content.",
+    "cta": "Browse Packages",
+    "imageAlt": "Team collaborating at a meeting table",
+    "scrollCtaAria": "Scroll to solutions section"
+  },
+  "services": {
+    "social": "Social Media Management",
+    "drone": "Drone Shoots",
+    "virtualTour": "Virtual Tour Services",
+    "ads": "Ad Management",
+    "consulting": "Expert Consulting",
+    "web": "Web Development",
+    "mobile": "Mobile Apps",
+    "seo": "SEO Services",
+    "dev": "Software Development"
+  },
+  "serviceInfo": {
+    "titlePrefix": "Service",
+    "titleHighlight": "Information",
+    "desc": "Contact us for details about our services and packages. We offer tailored solutions.",
+    "cards": {
+      "phone": {
+        "title": "Phone",
+        "desc": "Get detailed info"
+      },
+      "email": {
+        "title": "E-mail",
+        "desc": "Request a written quote"
+      },
+      "appointment": {
+        "title": "Appointment",
+        "desc": "Meet face to face"
+      }
+    },
+    "cta": "Book an Appointment"
+  },
+  "visualContent": {
+    "titlePrefix": "Visual",
+    "titleHighlight": "Content Services",
+    "desc": "We provide professional drone shots, photography and video production. We create high-quality visuals that strengthen your brand's communication. 4K quality shoots with fast delivery.",
+    "bullets": [
+      "Guaranteed 4K quality shooting",
+      "Fast delivery time (3–5 days)"
+    ],
+    "imageAlt": "Production meeting",
+    "badge": "Content Production Hub"
+  },
+  "compSol": {
+    "titlePrefix": "Comprehensive",
+    "titleHighlight": "Digital Solutions",
+    "desc": "From social media management to virtual tours, from ad campaigns to consulting — solutions for all your digital marketing needs.",
+    "blockTitlePrefix": "Social Media",
+    "blockTitleHighlight": "Management",
+    "blockDesc": "We manage your brand's social media accounts with our professional team. With our Gold and Platinum plans we guarantee 150% organic growth. We grow your brand with strategic content plans and targeted ad campaigns.",
+    "bullets": [
+      "150% organic growth guarantee",
+      "Detailed performance reports",
+      "Strategic content planning"
+    ],
+    "imageAlt": "Screens of social media apps",
+    "badge": "Social Media Specialist"
+  },
+  "notFound": {
+    "title": "We couldn’t find that page",
+    "subtitle": "The link may be broken, or the page may have been moved or removed.",
+    "desc": "You can head back to the homepage, or contact us and we’ll help you get what you need.",
+    "homeCta": "Back to homepage",
+    "contactCta": "Contact us"
+  },
+  "footer": {
+    "quick": "Quick Links",
+    "services": "Digital Services",
+    "contactInfo": "Contact Details",
+    "aboutText": "Turkey's leading digital marketing agency. We elevate your brand with drone shoots, virtual tours and social media management.",
+    "addressLine1": "Merkez Mah., Ataturk Avenue",
+    "addressLine2": "No:123, Floor 5, Istanbul",
+    "phone": "+90 555 123 4567",
+    "email": "info@tasodigital.com",
+    "hours": "Monday-Friday: 09:00-18:00",
+    "privacy": "Privacy Policy",
+    "terms": "Terms of Use",
+    "kvkk": "KVKK",
+    "rights": "All rights reserved.",
+    "by": "Prepared with care by {{name}}."
+  },
+  "servicesDropdown": {
+    "title": "Digital Marketing Services",
+    "subtitle": "Digital solutions with 150% growth guarantee",
+    "descriptions": {
+      "social": "Plans with 150% growth guarantee",
+      "visual": "Drone shoots, photography & video production",
+      "virtualTour": "360° virtual tours and Google integration",
+      "ads": "Meta Ads and Google Ads management",
+      "consulting": "Influencer marketing and strategy consulting"
+    }
+  },
+  "register": {
+    "user_system": "User System",
+    "create_new": "Create New",
+    "account": "Account",
+    "welcome_message": "Create your account in minutes and access all features.",
+    "quick_start": "Quick Start",
+    "quick_start_desc": "Register in simple steps and start immediately.",
+    "growth_guarantee": "Growth Guarantee",
+    "growth_guarantee_desc": "Solutions targeting 150% organic growth.",
+    "expert_support": "Expert Support",
+    "expert_support_desc": "Our expert team is here 24/7.",
+    "create_account": "Create Account",
+    "fill_all_info": "Please fill in all the fields.",
+    "first_name": "First Name",
+    "last_name": "Last Name",
+    "username": "Username",
+    "email_address": "Email Address",
+    "phone": "Phone",
+    "company": "Company",
+    "position": "Position",
+    "password": "Password",
+    "confirm_password": "Confirm Password",
+    "enter_first_name": "Enter first name",
+    "enter_last_name": "Enter last name",
+    "enter_username": "Enter username",
+    "enter_email": "Enter email",
+    "enter_phone": "Enter phone number",
+    "enter_company": "Enter company",
+    "enter_position": "Enter position",
+    "enter_password": "Enter password",
+    "enter_password_again": "Re-enter password",
+    "password_min_chars": "Password must be at least 8 characters.",
+    "terms_of_use": "terms of use",
+    "privacy_policy": "privacy policy",
+    "accept_terms": "I accept",
+    "and": "and",
+    "already_have_account": "Already have an account?",
+    "sign_in": "Sign in"
+  },
+  "login": {
+    "user_system": "User System",
+    "title_prefix": "Welcome",
+    "title_highlight": "to Your Panel",
+    "desc": "Access your account and manage your digital marketing services easily",
+    "secure_login": "Secure Login",
+    "secure_login_desc": "Your data is protected with advanced security measures",
+    "fast_access": "Fast Access",
+    "fast_access_desc": "Quick and easy access to your account",
+    "sign_in_title": "Sign In to Your Account",
+    "sign_in_desc": "Enter your credentials to access the panel",
+    "email": "Email Address",
+    "password": "Password",
+    "enter_email": "Enter your email",
+    "enter_password": "Enter your password",
+    "remember": "Remember me",
+    "forgot": "Forgot your password?",
+    "submit_button": "Sign In",
+    "no_account": "Don't have an account?",
+    "register_here": "Register here"
+  },
+  "home": {
+    "hero": {
+      "badge": "Digital Marketing Agency",
+      "title": "Grow your brand in the digital world",
+      "desc": "Strengthen your presence with social media management, advertising campaigns, content production and virtual tours.",
+      "cta": "Explore our services",
+      "imageAlt": "Digital solutions"
+    },
+    "servicesIntro": {
+      "title": "Our Digital Marketing Services",
+      "desc": "We deliver comprehensive digital solutions from social media management to virtual tours and ad campaigns.",
+      "badge": "Digital Solutions"
+    },
+    "stats": {
+      "growth": {
+        "value": "150%",
+        "label": "Average growth"
+      },
+      "drone": {
+        "value": "500+",
+        "label": "Drone shoots"
+      },
+      "clients": {
+        "value": "200+",
+        "label": "Happy clients"
+      },
+      "social": {
+        "value": "1000+",
+        "label": "Social accounts managed"
+      }
+    },
+    "servicesList": {
+      "social": {
+        "title": "Social Media Management",
+        "description": "Professional management for your social channels with strategic content plans and targeted campaigns.",
+        "bullets": [
+          "Gold package",
+          "Platinum package",
+          "150% organic growth",
+          "Strategic content planning",
+          "Meta & Google Ads management"
+        ],
+        "cta": "View packages",
+        "badge": "SM",
+        "label": "Social media experts"
+      },
+      "virtualTour": {
+        "title": "Virtual Tour Services",
+        "description": "360-degree tours for real estate, hotels, restaurants and businesses with Google Business integration.",
+        "bullets": [
+          "Real estate tours",
+          "Google Business integration",
+          "360 photography",
+          "Interactive experience",
+          "Mobile friendly"
+        ],
+        "cta": "Order now",
+        "badge": "VR",
+        "label": "360 Virtual Tours"
+      },
+      "visual": {
+        "title": "Visual Production",
+        "description": "Professional drone, photo and video production to strengthen your brand's visual communication.",
+        "bullets": [
+          "Drone filming",
+          "Professional photography",
+          "Video production",
+          "4K quality",
+          "Fast turnaround"
+        ],
+        "cta": "Explore services",
+        "badge": "DR",
+        "label": "Drone & photo crew"
+      },
+      "consulting": {
+        "title": "Digital Marketing Consulting",
+        "description": "One-on-one consulting for influencer marketing, strategy building and campaign optimisation.",
+        "bullets": [
+          "Consulting sessions",
+          "Influencer marketing",
+          "Strategy development",
+          "Campaign optimisation",
+          "ROI analysis"
+        ],
+        "cta": "Book a session",
+        "badge": "XP",
+        "label": "Expert consulting"
+      }
+    }
+  },
+  "products": {
+    "hero": {
+      "badge": "Digital Solutions",
+      "title1": "Products &",
+      "title2": "Services",
+      "desc": "We provide every digital solution you need. Let our professional team bring your ideas to life.",
+      "ctaPrimary": "Contact Us",
+      "ctaSecondary": "Browse Products",
+      "imgAlt": "Digital products"
+    },
+    "filters": {
+      "all": "All products",
+      "loading": "Loading categories..."
+    },
+    "search": {
+      "placeholder": "Search products...",
+      "clear": "Clear"
+    },
+    "card": {
+      "view": "View",
+      "call": "Call",
+      "free": "Free",
+      "ask": "Contact for pricing"
+    },
+    "empty": {
+      "title": "No products match these filters",
+      "desc": "Adjust your filters or search term and try again.",
+      "cta": "View All Products"
+    },
+    "section": {
+      "title1": "Professional Digital",
+      "title2": "Solutions",
+      "subtitle": "Discover our digital service packages"
+    },
+    "cta": {
+      "title": "Do you have a custom project?",
+      "desc": "We can craft solutions specific to your needs beyond the packages listed above.",
+      "primary": "Contact Us Now",
+      "secondary": "Call Us"
+    },
+    "errors": {
+      "categories": "Unable to load categories",
+      "unexpected": "Unexpected error"
+    },
+    "messages": {
+      "loading": "Loading..."
+    },
+    "detail": {
+      "notFound": "Product not found",
+      "notFoundDesc": "Try another product from the list or contact our team.",
+      "back": "Go back",
+      "meet": "Schedule a call",
+      "extras": "Optional add-ons",
+      "extrasDesc": "Additional services you can include in your plan.",
+      "nextSteps": "Ready for the next step?",
+      "nextStepsDesc": "Let us tailor the package and optional extras for you.",
+      "callNow": "Call now",
+      "contact": "Fill the form",
+      "included": "Included features",
+      "premium": "Pro features",
+      "subscription": "Subscription",
+      "optional": "Optional",
+      "summary": "Order Summary",
+      "base": "Package",
+      "total": "Total",
+      "purchase": "Purchase"
+    }
+  },
+  "pages": {
+    "about": {
+      "title": "About Us",
+      "description": "At Tasodigital we help brands grow in the digital world."
+    },
+    "services": {
+      "title": "Our Services",
+      "description": "Detailed service content is coming soon."
+    },
+    "references": {
+      "title": "References",
+      "description": "Brands that trust us with their digital growth.",
+      "heroTitle": "Our Success Stories",
+      "heroDesc": "We help brands grow with social media consulting, 4K drone shots, and high-quality commercial productions.",
+      "projectsTitle": "Featured Projects",
+      "projectsSubtitle": "A selection of our work across different industries.",
+      "resultLabel": "Outcome",
+      "items": {
+        "cafe": {
+          "client": "The Coffee Lab",
+          "service": "Social Media Management",
+          "desc": "Complete rebranding and Instagram management for a local coffee chain. We created daily reels and aesthetic photo content.",
+          "result": "150% increase in followers in 3 months"
+        },
+        "realestate": {
+          "client": "Grand Horizons Estate",
+          "service": "Drone & Virtual Tour",
+          "desc": "4K drone cinematography and 360-degree virtual tours for a luxury housing project.",
+          "result": "Sold 40% of units in first month"
+        },
+        "hotel": {
+          "client": "Seaside Resort & Spa",
+          "service": "Commercial Production",
+          "desc": "Promotional film production highlighting the hotel's amenities and atmosphere for the summer season.",
+          "result": "2M+ views on digital ads"
+        },
+        "clinic": {
+          "client": "Elite Dental Clinic",
+          "service": "Consulting & Ads",
+          "desc": "Digital marketing consulting and Google Ads management to attract international patients.",
+          "result": "300% ROI on ad spend"
+        }
+      },
+      "bottomImageAlt": "Our team working on set"
+    },
+    "privacy": {
+      "title": "Privacy Policy",
+      "description": "The latest version of our privacy policy will be published soon."
+    },
+    "terms": {
+      "title": "Terms of Use",
+      "description": "Updated terms of use will be published shortly."
+    },
+    "kvkk": {
+      "title": "KVKK Disclosure",
+      "description": "We are preparing the updated KVKK document."
+    }
+  },
+  "contact": {
+    "hero": {
+      "badge": "Get in Touch",
+      "title1": "Contact",
+      "title2": "Channels",
+      "desc": "Reach out with your projects or questions. Our team will get back quickly.",
+      "ctaSend": "Send a Message",
+      "ctaCall": "Call Now",
+      "imageAlt": "Contact"
+    },
+    "info": {
+      "title1": "Contact",
+      "title2": "Details",
+      "subtitle": "We are available 24/7",
+      "addressTitle": "Address",
+      "address": "Merkez Mah. Ataturk Ave. No:123 Floor 5 Istanbul",
+      "addressCta": "View on map",
+      "phoneTitle": "Phone",
+      "phone": "+90 506 165 93 88",
+      "phoneCta": "Call",
+      "mailTitle": "E-mail",
+      "mail": "admin@tasodigital.com",
+      "mailCta": "Send now"
+    },
+    "appointment": {
+      "title1": "Consulting",
+      "title2": "Appointment",
+      "subtitle": "Pick an available slot",
+      "info": "Schedule a one-to-one session with our experts.",
+      "pickDate": "Choose date",
+      "monthLabel": "Month",
+      "legendAvailable": "Available",
+      "legendUnavailable": "Blocked",
+      "legendSelected": "Selected",
+      "legendFull": "Full",
+      "calendarTitle": "Appointment Calendar",
+      "form": {
+        "service": "Service",
+        "serviceReq": "Please select a service",
+        "date": "Date",
+        "time": "Time",
+        "pickTime": "Choose a time",
+        "pickDateFirst": "Please select a date first",
+        "name": "Full name",
+        "nameReq": "Name is required",
+        "email": "Email",
+        "emailReq": "Enter a valid email",
+        "phone": "Phone",
+        "message": "Note",
+        "messagePh": "You can add an optional note",
+        "messageHint": "Max 500 characters",
+        "privacy": "I accept the privacy policy",
+        "submit": "Book appointment"
+      }
+    },
+    "faq": {
+      "title1": "Frequently Asked",
+      "title2": "Questions",
+      "subtitle": "Answers to the most common topics",
+      "q1": "How do you price your services?",
+      "a1": "Pricing depends on scope and needs. Contact us for a tailored quote.",
+      "q2": "How does the collaboration work?",
+      "a2": "We analyse your needs, create a roadmap and kick off the project together.",
+      "q3": "Which industries do you serve?",
+      "a3": "We work with retail, real estate, tourism, health, education and many more."
+    }
+  },
+  "form": {
+    "title": "Contact Form",
+    "fields": {
+      "name": "Full name",
+      "email": "Email",
+      "subject": "Subject",
+      "phone": "Phone",
+      "message": "Message"
+    },
+    "privacy": "By submitting you accept our privacy policy",
+    "select": "Select",
+    "submit": "Send message"
+  },
+  "map": {
+    "title": "Visit our office",
+    "socialTitle": "Social Media",
+    "hoursTitle": "Working Hours",
+    "hoursWeek": "Monday - Friday",
+    "hoursSat": "Saturday",
+    "hoursSun": "Sunday",
+    "weekLabel": "Week",
+    "satLabel": "Weekend",
+    "sunLabel": "Sunday"
+  },
+  "cta": {
+    "title": "Get in touch now",
+    "titleTail": "",
+    "desc": "We are ready to collaborate on your projects.",
+    "ctaCall": "Call",
+    "ctaMail": "Send e-mail",
+    "support": "Support line"
+  },
+  "about": {
+    "hero": {
+      "badge": "Serving since 2020",
+      "title1": "Digital Marketing",
+      "title2": "Experts",
+      "desc": "Since 2020 our professional team has been helping brands scale in the digital world. Grow with our 150% organic growth plans and innovative solutions.",
+      "imgAlt": "Taso Digital Team"
+    },
+    "stats": {
+      "growth": "150% Organic Growth",
+      "clients": "Happy Clients",
+      "drone": "Drone Shoots",
+      "tour": "Virtual Tours"
+    },
+    "story": {
+      "title1": "Our Story and",
+      "title2": "Experience",
+      "description": "We started in 2020 with social media marketing. We expanded with drone shoots and virtual tours and built plans focused on 150% organic growth.",
+      "b1": "Started in 2020 in social media marketing",
+      "b2": "Expanded with drone shoots and virtual tour services",
+      "b3": "Developed plans with 150% organic growth guarantee",
+      "b4": "Passed 100+ successful projects with happy clients",
+      "imgAlt": "Company Story"
+    },
+    "values": {
+      "title1": "Mission, Vision",
+      "title2": "and Values",
+      "subtitle": "We serve guided by our mission, vision and core values",
+      "mission": {
+        "title": "Our Mission",
+        "text": "Provide innovative and effective digital marketing solutions. Build strong digital presence with social media, visual content and virtual tours.",
+        "tag": "Mission"
+      },
+      "vision": {
+        "title": "Our Vision",
+        "text": "Be a leading digital marketing agency combining technology and creativity to deliver pioneering solutions.",
+        "tag": "Vision"
+      },
+      "values": {
+        "title": "Our Values",
+        "text": "Customer satisfaction, quality, innovation and reliability. Transparent, honest and professional partnerships.",
+        "tag": "Values"
+      }
+    },
+    "team": {
+      "title1": "Professional",
+      "title2": "Team",
+      "subtitle": "Experienced and creative experts bringing your projects to life"
+    },
+    "cta": {
+      "title": "Meet our team and grow your project",
+      "desc": "Let’s craft solutions for your needs. Contact us or book an appointment.",
+      "primary": "Contact Us",
+      "secondary": "See the Team"
+    }
+  }
+}
