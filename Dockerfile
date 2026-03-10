@@ -23,6 +23,8 @@ EXPOSE 3000
 
 # 4. Adım: Uygulamayı başlat
 # Eğer package.json içinde "start" scriptin varsa:
+RUN chown -R 1000:1000 /app
+USER 1000
 CMD ["bun", "run", "start"]
 
 # EĞER start scriptin yoksa ve direkt dosyayı çalıştırıyorsan (örneğin index.ts):
